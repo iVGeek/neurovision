@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurovision"
+version = "1.0.0"
+description = "An intelligent neural network library with real-time visualization"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21.0",
+    "matplotlib>=3.5.0",
+    "scikit-learn>=1.0.0",
+    "scipy>=1.7.0",
+]
