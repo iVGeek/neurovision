@@ -2,10 +2,10 @@
 <div align="center">
 An Intelligent Neural Network Library with Real-Time Visualization
 
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/License-MIT-green
-https://img.shields.io/badge/Build-Passing-brightgreen
-https://img.shields.io/badge/Version-1.0.0-orange
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/yourusername/neurovision)
+[![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://pypi.org/project/neurovision/)
 
 See your neural network learn in real-time
 
