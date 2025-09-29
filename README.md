@@ -345,7 +345,7 @@ bibtex
   title = {NeuroVision: An Intelligent Neural Network Library with Real-Time Visualization},
   author = {NeuroVision Team},
   year = {2024},
-  url = {https://github.com/ivgeek/neurovision},
+  url = {https://github.com/iVGeek/neurovision},
   version = {1.0.0}
 }
 
@@ -363,8 +363,7 @@ Optimization methods from deep learning research papers
 
 Testing infrastructure from the Python open-source ecosystem
 
-___
-
+---
 
 ### 🔮 Future Roadmap
 Version 1.1.0 (Upcoming)
