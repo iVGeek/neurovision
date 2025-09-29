@@ -50,13 +50,15 @@ visualizer.create_dashboard(nn, X_test, y_test, history)
 4. Visual debugging of training dynamics
 
 ---
-🚀 Installation
-Basic Installation
-bash
+### 🚀 Installation
+1. Basic Installation
+```
 pip install neurovision
-Development Installation
-bash
-# Clone the repository
+```
+2. Development Installation
+
+Clone the repository
+```
 git clone https://github.com/yourusername/neurovision.git
 cd neurovision
 
@@ -70,27 +72,27 @@ pip install -e ".[full]"
 pytest tests/
 Requirements
 Python 3.8+
-
 NumPy
-
 Matplotlib
-
 Scikit-learn
+```
+### 💡 Quick Start
 
-💡 Quick Start
 Basic Classification Example
-python
+```
 import numpy as np
 from neurovision import NeuralNetwork, NeuralNetworkVisualizer
 from neurovision.utils.data_loader import generate_complex_dataset
-
+```
 # 1. Generate a complex dataset
+```
 X_train, X_test, y_train, y_test = generate_complex_dataset(
     n_samples=1000, 
     dataset_type='moons'
 )
-
+```
 # 2. Create a neural network
+```
 nn = NeuralNetwork(
     layers=[2, 16, 8, 1],           # Input: 2 features, Hidden: 16→8, Output: 1
     learning_rate=0.1,              # Adaptive learning rate
@@ -98,8 +100,9 @@ nn = NeuralNetwork(
     regularization=0.001,           # L2 regularization
     optimizer='adam'                # Adam optimizer for faster convergence
 )
-
+```
 # 3. Train the network
+```
 history = nn.train(
     X_train, 
     y_train.reshape(-1, 1), 
@@ -109,24 +112,28 @@ history = nn.train(
     early_stopping=True,
     patience=50
 )
+```
 
 # 4. Evaluate performance
+```
 test_metrics = nn.evaluate(X_test, y_test.reshape(-1, 1))
 print(f"🎯 Test Accuracy: {test_metrics['accuracy']:.4f}")
 print(f"📉 Test Loss: {test_metrics['loss']:.4f}")
-
+```
 # 5. Create comprehensive visualizations
+```
 visualizer = NeuralNetworkVisualizer()
 dashboard = visualizer.create_dashboard(nn, X_test, y_test, history)
 Command Line Interface
-bash
+
 # Run the basic demo
 neurovision-demo
 
 # Run comprehensive benchmarks
 neurovision-benchmark
-
+```
 # Start Jupyter with examples
+
 jupyter notebook
 📸 Visualization Gallery
 NeuroVision provides stunning visualizations to understand your model's behavior:
@@ -142,7 +149,7 @@ https://via.placeholder.com/700x350/37474f/ffffff?text=Performance+Analytics
 
 🔬 Advanced Usage
 Custom Architectures
-python
+
 # Deep network for complex patterns
 deep_nn = NeuralNetwork(
     layers=[2, 64, 32, 16, 8, 4, 1],
