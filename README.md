@@ -133,53 +133,61 @@ neurovision-demo
 neurovision-benchmark
 ```
 # Start Jupyter with examples
-
+```
 jupyter notebook
 📸 Visualization Gallery
 NeuroVision provides stunning visualizations to understand your model's behavior:
-
+```
+```
 Live Training Dashboard
 https://via.placeholder.com/800x400/37474f/ffffff?text=Live+Training+Dashboard
-
+```
+```
 Decision Boundary Evolution
 https://via.placeholder.com/600x300/37474f/ffffff?text=Decision+Boundary+Evolution
-
+```
+```
 Performance Analytics
 https://via.placeholder.com/700x350/37474f/ffffff?text=Performance+Analytics
-
-🔬 Advanced Usage
+```
+### 🔬 Advanced Usage
 Custom Architectures
 
-# Deep network for complex patterns
+#### Deep network for complex patterns
+```
 deep_nn = NeuralNetwork(
     layers=[2, 64, 32, 16, 8, 4, 1],
     learning_rate=0.01,
     activation='leaky_relu'
 )
-
+```
 # Wide network for feature learning
 wide_nn = NeuralNetwork(
     layers=[2, 128, 64, 1],
     learning_rate=0.1,
     regularization=0.01
 )
+```
 Live Training Visualization
-python
+```
 from neurovision.visualization.animator import LiveTrainingVisualizer
-
-# Create live visualizer
+```
+#### Create live visualizer
+```
 visualizer = LiveTrainingVisualizer(nn, X_train, y_train)
 visualizer.start()
 
-# Train with real-time updates
+### Train with real-time updates
+```
 history = nn.train(X_train, y_train, epochs=500)
 
 visualizer.stop()
 Hyperparameter Optimization
 python
 from neurovision.utils.metrics import benchmark_performance
-
-# Test multiple configurations
+```
+### Test multiple configurations
+```
 architectures = [[2, 16, 1], [2, 32, 16, 1], [2, 64, 32, 16, 1]]
 learning_rates = [0.1, 0.01, 0.001]
 
@@ -200,11 +208,13 @@ for i in range(n_models):
     model.train(X_train, y_train, epochs=200)
     pred = model.predict(X_test)
     predictions.append(pred)
+```
 
-# Majority voting
+### Majority voting
+```
 ensemble_pred = (np.mean(predictions, axis=0) > 0.5).astype(int)
 ensemble_accuracy = np.mean(ensemble_pred == y_test.T)
-
+```
 ---
 ### 🏗️ Architecture
 
