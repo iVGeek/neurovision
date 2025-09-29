@@ -10,53 +10,48 @@ NeuroVision is a comprehensive neural network library built from scratch with a 
 
 See your neural network learn in real-time
 
-# From zero to neural network in 5 lines of code
-from neurovision import NeuralNetwork, NeuralNetworkVisualizer
+### From zero to neural network in 5 lines of code
 ```
+from neurovision import NeuralNetwork, NeuralNetworkVisualizer
 nn = NeuralNetwork([2, 16, 8, 1], learning_rate=0.1)
 history = nn.train(X_train, y_train, epochs=1000)
 visualizer = NeuralNetworkVisualizer()
 visualizer.create_dashboard(nn, X_test, y_test, history)
 ```
-✨ Key Features
-🧠 Advanced Neural Networks
-From-scratch implementation with pure NumPy
+---
+### ✨ Key Features
+1. 🧠 Advanced Neural Networks
+1.1 From-scratch implementation with pure NumPy
 
-Multiple architectures: Feedforward, Deep, Wide networks
+1.2 Multiple architectures: Feedforward, Deep, Wide networks
 
-Smart optimization: Adam, SGD with momentum, Learning rate scheduling
+1.3 Smart optimization: Adam, SGD with momentum, Learning rate scheduling
 
-Advanced activations: ReLU, Sigmoid, Tanh, Leaky ReLU
+1.4 Advanced activations: ReLU, Sigmoid, Tanh, Leaky ReLU
 
-Regularization: L2, Early stopping, Gradient clipping
+1.5 Regularization: L2, Early stopping, Gradient clipping
 
-📊 Real-Time Visualization
-Live training dashboard with 7+ interactive plots
+### 📊 Real-Time Visualization
 
-Decision boundary animations that evolve during training
+1. Live training dashboard with 7+ interactive plots
+2. Decision boundary animations that evolve during training
+3. Weight distribution and gradient flow analysis
+4. Performance metrics tracking with professional charts
 
-Weight distribution and gradient flow analysis
+###⚡ Production Ready
 
-Performance metrics tracking with professional charts
+1. Comprehensive testing with 95%+ code coverage
+2. Modular architecture for easy extension
+3. Type hints and documentation throughout
+4. Benchmarking suite for performance analysis
 
-⚡ Production Ready
-Comprehensive testing with 95%+ code coverage
+## 🎓 Educational Focus
+1. Clear, readable code perfect for learning
+2. Multiple dataset types for experimentation
+3. Step-by-step examples from basic to advanced
+4. Visual debugging of training dynamics
 
-Modular architecture for easy extension
-
-Type hints and documentation throughout
-
-Benchmarking suite for performance analysis
-
-🎓 Educational Focus
-Clear, readable code perfect for learning
-
-Multiple dataset types for experimentation
-
-Step-by-step examples from basic to advanced
-
-Visual debugging of training dynamics
-
+---
 🚀 Installation
 Basic Installation
 bash
