@@ -315,6 +315,7 @@ Additional visualization types
 
 More dataset loaders
 
+---
 ### 📚 Documentation
 For detailed documentation, check out:
 
@@ -390,4 +391,3 @@ Version 2.0.0 (Future)
 Built with ❤️ for the AI community
 "The beautiful thing about learning is that nobody can take it away from you." - B.B. King
 </div>
----
