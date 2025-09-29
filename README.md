@@ -35,15 +35,15 @@ visualizer.create_dashboard(nn, X_test, y_test, history)
 2. Decision boundary animations that evolve during training
 3. Weight distribution and gradient flow analysis
 4. Performance metrics tracking with professional charts
-
-###⚡ Production Ready
+ 
+###  ⚡Production Ready
 
 1. Comprehensive testing with 95%+ code coverage
 2. Modular architecture for easy extension
 3. Type hints and documentation throughout
 4. Benchmarking suite for performance analysis
 
-## 🎓 Educational Focus
+### 🎓 Educational Focus
 1. Clear, readable code perfect for learning
 2. Multiple dataset types for experimentation
 3. Step-by-step examples from basic to advanced
