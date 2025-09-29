@@ -62,13 +62,13 @@ Clone the repository
 git clone https://github.com/yourusername/neurovision.git
 cd neurovision
 
-# Install in development mode
+###  Install in development mode
 pip install -e .
 
-# Install with all optional dependencies
+###  Install with all optional dependencies
 pip install -e ".[full]"
 
-# Run tests to verify installation
+###  Run tests to verify installation
 pytest tests/
 Requirements
 Python 3.8+
@@ -114,13 +114,13 @@ history = nn.train(
 )
 ```
 
-# 4. Evaluate performance
+### 4. Evaluate performance
 ```
 test_metrics = nn.evaluate(X_test, y_test.reshape(-1, 1))
 print(f"🎯 Test Accuracy: {test_metrics['accuracy']:.4f}")
 print(f"📉 Test Loss: {test_metrics['loss']:.4f}")
 ```
-# 5. Create comprehensive visualizations
+### 5. Create comprehensive visualizations
 ```
 visualizer = NeuralNetworkVisualizer()
 dashboard = visualizer.create_dashboard(nn, X_test, y_test, history)
@@ -132,7 +132,7 @@ neurovision-demo
 # Run comprehensive benchmarks
 neurovision-benchmark
 ```
-# Start Jupyter with examples
+### Start Jupyter with examples
 ```
 jupyter notebook
 📸 Visualization Gallery
