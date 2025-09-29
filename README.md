@@ -228,9 +228,13 @@ for i in range(n_models):
 # Majority voting
 ensemble_pred = (np.mean(predictions, axis=0) > 0.5).astype(int)
 ensemble_accuracy = np.mean(ensemble_pred == y_test.T)
-🏗️ Architecture
+
+---
+### 🏗️ Architecture
+
 Code Structure
-text
+
+```
 neurovision/
 ├── core/                 # Neural network implementation
 │   ├── neural_network.py  # Main network class
@@ -245,8 +249,11 @@ neurovision/
     ├── basic_demo.py     # Getting started
     ├── advanced_demo.py  # Advanced features
     └── benchmark_demo.py # Performance tests
-Neural Network Architecture
-text
+
+```
+
+### Neural Network Architecture
+```
 Input Layer (Features)
          ↓
 Hidden Layer 1 (ReLU) → Batch Normalization → Dropout
@@ -256,56 +263,58 @@ Hidden Layer 2 (ReLU) → Batch Normalization → Dropout
 Output Layer (Sigmoid/Tanh)
          ↓
 Loss Calculation + Backpropagation
-📊 Performance
+```
+
+### 📊 Performance
+```
 Benchmark Results
 Architecture	Moons Dataset	Circles Dataset	Spiral Dataset	Training Time
 [2, 16, 1]	97.3%	96.8%	95.2%	12.4s
 [2, 32, 16, 1]	98.1%	97.5%	96.8%	18.7s
 [2, 64, 32, 16, 1]	98.5%	98.2%	97.9%	25.3s
-Optimization Features
-Vectorized operations for maximum performance
-
-Mini-batch training with configurable sizes
-
-Smart initialization (Xavier/Glorot)
-
-Gradient checking for numerical stability
-
-🤝 Contributing
+```
+---
+###Optimization Features
+1. Vectorized operations for maximum performance
+2. Mini-batch training with configurable sizes
+3. Smart initialization (Xavier/Glorot)
+4. Gradient checking for numerical stability
+---
+### 🤝 Contributing
 We love contributions! Here's how you can help:
 
-Reporting Issues
-Bug reports
-
-Feature requests
-
-Documentation improvements
-
-Code Contributions
+---
+### Reporting Issues
+1. Bug reports
+2. Feature requests
+3. Documentation improvements
+---
+###Code Contributions
+```
 Fork the repository
-
 Create a feature branch (git checkout -b feature/amazing-feature)
-
 Commit your changes (git commit -m 'Add amazing feature')
-
 Push to the branch (git push origin feature/amazing-feature)
-
 Open a Pull Request
+```
 
-Development Setup
-bash
-# Set up development environment
+### Development Setup
+
+Set up development environment
+```
 git clone https://github.com/yourusername/neurovision.git
 cd neurovision
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-
+```
 # Install development dependencies
+```
 pip install -e ".[dev]"
-
+```
 # Run tests
+```
 pytest tests/ --cov=neurovision --cov-report=html
-
+```
 # Code formatting
 black neurovision/ tests/
 flake8 neurovision/ tests/
