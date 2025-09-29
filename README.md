@@ -6,7 +6,8 @@
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://pypi.org/project/neurovision/)
 
 </div>
-### 🧠 NeuroVision 
+
+###🧠 NeuroVision 
 
 NeuroVision is a comprehensive neural network library built from scratch with a focus on clean code, educational value, and real-time visualization. Whether you're learning deep learning fundamentals or prototyping complex architectures, NeuroVision provides intuitive tools to see exactly how your networks learn.
 
