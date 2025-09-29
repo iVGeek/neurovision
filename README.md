@@ -346,7 +346,7 @@ bibtex
   title = {NeuroVision: An Intelligent Neural Network Library with Real-Time Visualization},
   author = {NeuroVision Team},
   year = {2024},
-  url = {https://github.com/iVGeek/neurovision},
+  url ={https://github.com/iVGeek/neurovision},
   version = {1.0.0}
 }
 
