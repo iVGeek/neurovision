@@ -1,6 +1,7 @@
-🧠 NeuroVision
+### 🧠 NeuroVision
 <div align="center">
-An Intelligent Neural Network Library with Real-Time Visualization
+NeuroVision is a comprehensive neural network library built from scratch with a focus on clean code, educational value, and real-time visualization. Whether you're learning deep learning fundamentals or prototyping complex architectures, NeuroVision provides intuitive tools to see exactly how your networks learn.
+
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -9,39 +10,14 @@ An Intelligent Neural Network Library with Real-Time Visualization
 
 See your neural network learn in real-time
 
-</div>
-📖 Table of Contents
-Overview
-
-Key Features
-
-Installation
-
-Quick Start
-
-Visualization Gallery
-
-Advanced Usage
-
-Architecture
-
-Performance
-
-Contributing
-
-License
-
-🎯 Overview
-NeuroVision is a comprehensive neural network library built from scratch with a focus on clean code, educational value, and real-time visualization. Whether you're learning deep learning fundamentals or prototyping complex architectures, NeuroVision provides intuitive tools to see exactly how your networks learn.
-
-python
 # From zero to neural network in 5 lines of code
 from neurovision import NeuralNetwork, NeuralNetworkVisualizer
-
+```
 nn = NeuralNetwork([2, 16, 8, 1], learning_rate=0.1)
 history = nn.train(X_train, y_train, epochs=1000)
 visualizer = NeuralNetworkVisualizer()
 visualizer.create_dashboard(nn, X_test, y_test, history)
+```
 ✨ Key Features
 🧠 Advanced Neural Networks
 From-scratch implementation with pure NumPy
