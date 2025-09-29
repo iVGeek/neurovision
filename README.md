@@ -363,19 +363,11 @@ Optimization methods from deep learning research papers
 
 Testing infrastructure from the Python open-source ecosystem
 
-<div align="center">
-Built with ❤️ for the AI community
-
-"The beautiful thing about learning is that nobody can take it away from you." - B.B. King
-
-Report Bug ·
-Request Feature ·
-View Documentation
-
-</div>
 
 
-🔮 Future Roadmap
+
+
+### 🔮 Future Roadmap
 Version 1.1.0 (Upcoming)
 Convolutional Neural Networks
 
@@ -404,3 +396,16 @@ Transformer architectures
 Production deployment pipeline
 
 NeuroVision: Where education meets production-ready AI development.
+
+---
+<div align="center">
+Built with ❤️ for the AI community
+
+"The beautiful thing about learning is that nobody can take it away from you." - B.B. King
+
+Report Bug ·
+Request Feature ·
+View Documentation
+
+</div>
+---
