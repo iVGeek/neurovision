@@ -275,7 +275,7 @@ We love contributions! Here's how you can help:
 2. Feature requests
 3. Documentation improvements
 ---
-###Code Contributions
+###  Code Contributions
 ```
 Fork the repository
 Create a feature branch (git checkout -b feature/amazing-feature)
@@ -301,7 +301,7 @@ pip install -e ".[dev]"
 ```
 pytest tests/ --cov=neurovision --cov-report=html
 ```
-# Code formatting
+### Code formatting
 black neurovision/ tests/
 flake8 neurovision/ tests/
 Areas Needing Contribution
@@ -315,7 +315,7 @@ Additional visualization types
 
 More dataset loaders
 
-📚 Documentation
+### 📚 Documentation
 For detailed documentation, check out:
 
 Getting Started - Installation and basic usage
@@ -326,7 +326,8 @@ Examples Gallery - Code examples from basic to advanced
 
 Theory Guide - Mathematical foundations and algorithms
 
-Quick Links
+---
+### Quick Links
 Tutorials: Step-by-step learning guides
 
 API Docs: Complete reference documentation
@@ -335,7 +336,8 @@ Examples: Ready-to-run code samples
 
 Benchmarks: Performance comparisons
 
-🏆 Citation
+---
+### 🏆 Citation
 If you use NeuroVision in your research or projects, please cite:
 
 bibtex
@@ -346,10 +348,13 @@ bibtex
   url = {https://github.com/yourusername/neurovision},
   version = {1.0.0}
 }
-📄 License
+
+---
+#### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+---
+### 🙏 Acknowledgments
 Inspired by Andrew Ng's Machine Learning course
 
 Visualization techniques from matplotlib and seaborn communities
