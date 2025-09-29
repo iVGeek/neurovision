@@ -366,44 +366,28 @@ Testing infrastructure from the Python open-source ecosystem
 ---
 
 ### 🔮 Future Roadmap
-Version 1.1.0 (Upcoming)
-Convolutional Neural Networks
 
-Recurrent Neural Networks (LSTM/GRU)
-
-Autoencoder support
-
-Transfer learning utilities
+1. Version 1.1.0 (Upcoming)
+2. Convolutional Neural Networks
+3. Recurrent Neural Networks (LSTM/GRU)
+4. Autoencoder support
+5. Transfer learning utilities
 
 Version 1.2.0 (Planned)
-GPU acceleration with CuPy
-
-Distributed training support
-
-Model deployment tools
-
-Web-based visualization dashboard
+1. GPU acceleration with CuPy
+2. Distributed training support
+3. Model deployment tools
+4. Web-based visualization dashboard
 
 Version 2.0.0 (Future)
-Reinforcement learning modules
-
-Generative Adversarial Networks
-
-Transformer architectures
-
-Production deployment pipeline
-
-NeuroVision: Where education meets production-ready AI development.
+1. Reinforcement learning modules
+2. Generative Adversarial Networks
+3. Transformer architectures
+4. Production deployment pipeline
 
 ---
 <div align="center">
 Built with ❤️ for the AI community
-
 "The beautiful thing about learning is that nobody can take it away from you." - B.B. King
-
-Report Bug ·
-Request Feature ·
-View Documentation
-
 </div>
 ---
