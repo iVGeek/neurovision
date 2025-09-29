@@ -59,7 +59,7 @@ pip install neurovision
 
 Clone the repository
 ```
-git clone https://github.com/yourusername/neurovision.git
+git clone https://github.com/ivgeek/neurovision.git
 cd neurovision
 
 ###  Install in development mode
