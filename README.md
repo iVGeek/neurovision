@@ -1,15 +1,13 @@
 ### 🧠 NeuroVision
-<div align="center">
-NeuroVision is a comprehensive neural network library built from scratch with a focus on clean code, educational value, and real-time visualization. Whether you're learning deep learning fundamentals or prototyping complex architectures, NeuroVision provides intuitive tools to see exactly how your networks learn.
-
-
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/yourusername/neurovision)
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://pypi.org/project/neurovision/)
+<div align="center">
+    
+NeuroVision is a comprehensive neural network library built from scratch with a focus on clean code, educational value, and real-time visualization. Whether you're learning deep learning fundamentals or prototyping complex architectures, NeuroVision provides intuitive tools to see exactly how your networks learn.
 
-See your neural network learn in real-time
-
+---
 ### From zero to neural network in 5 lines of code
 ```
 from neurovision import NeuralNetwork, NeuralNetworkVisualizer
@@ -22,13 +20,9 @@ visualizer.create_dashboard(nn, X_test, y_test, history)
 ### ✨ Key Features
 1. 🧠 Advanced Neural Networks
 1.1 From-scratch implementation with pure NumPy
-
 1.2 Multiple architectures: Feedforward, Deep, Wide networks
-
 1.3 Smart optimization: Adam, SGD with momentum, Learning rate scheduling
-
 1.4 Advanced activations: ReLU, Sigmoid, Tanh, Leaky ReLU
-
 1.5 Regularization: L2, Early stopping, Gradient clipping
 
 ### 📊 Real-Time Visualization
