@@ -22,12 +22,12 @@ visualizer.create_dashboard(nn, X_test, y_test, history)
 ```
 ---
 ### ✨ Key Features
-1. 🧠 Advanced Neural Networks
-1.1 From-scratch implementation with pure NumPy
-1.2 Multiple architectures: Feedforward, Deep, Wide networks
-1.3 Smart optimization: Adam, SGD with momentum, Learning rate scheduling
-1.4 Advanced activations: ReLU, Sigmoid, Tanh, Leaky ReLU
-1.5 Regularization: L2, Early stopping, Gradient clipping
+🧠 Advanced Neural Networks   
+1. From-scratch implementation with pure NumPy
+2. Multiple architectures: Feedforward, Deep, Wide networks
+3. Smart optimization: Adam, SGD with momentum, Learning rate scheduling
+4. Advanced activations: ReLU, Sigmoid, Tanh, Leaky ReLU
+5. Regularization: L2, Early stopping, Gradient clipping
 
 ### 📊 Real-Time Visualization
 
