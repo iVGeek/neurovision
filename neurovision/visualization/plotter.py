@@ -149,7 +149,7 @@ class NeuralNetworkVisualizer:
         import pandas as pd
         df = pd.DataFrame({'Weights': weights, 'Layer': labels})
         
-        sns.violinplot(data=df, x='Layer', y='Weights', ax=ax, palette=self.colors)
+        sns.violinplot(data=df, x='Layer', y='Weights', ax=ax, hue='Layer', palette=self.colors[:len(df['Layer'].unique())], legend=False)
         ax.set_title('Weight Distribution by Layer')
         ax.tick_params(axis='x', rotation=45)
     
