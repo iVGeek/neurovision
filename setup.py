@@ -48,3 +48,5 @@ setup(
         ],
     },
 )
+
+'' script _ > def < ; cont; 
